@@ -1,0 +1,14 @@
+<web-app>
+<servlet>
+	<servlet-name>s1</servlet-name>
+	<servlet-class>Prac</servlet-class>
+	<init-param>
+	<param-name>name</param-name>
+	<param-value>mayuri</param-value>
+	</init-param>
+</servlet>
+<servlet-mapping>
+	<servlet-name>s1</servlet-name>
+	<url-pattern>/hello</url-pattern>
+</servlet-mapping>
+</web-app>
